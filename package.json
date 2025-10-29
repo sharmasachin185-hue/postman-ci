@@ -1,0 +1,10 @@
+﻿{
+  "name": "postman-ci",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run \"Test CI-CD-postman_collection.json\""
+  },
+  "devDependencies": {
+    "newman": "^6.0.0"
+  }
+}
